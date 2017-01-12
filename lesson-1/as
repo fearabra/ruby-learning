@@ -1,0 +1,8 @@
+puts "Количество очков по партиям \n==========================="
+results = [10, 2, 5, 12, 11, 11, 4]
+for sum in results
+  ind=results.index(sum)
+  ind=ind+1
+  str="Партия: #{ind} / Выпало очков: #{sum}"
+  puts str
+end

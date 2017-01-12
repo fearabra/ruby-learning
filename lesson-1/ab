@@ -1,0 +1,8 @@
+class String
+  def - (value)
+    delete(value)
+  end
+end
+a="help"
+b="hello"
+ puts a-b
